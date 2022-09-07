@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning JS</title>
+  </head>
+  <body>
+    <script>
+      //variable
+      var x = 10;
+      var y = 20;
+      var sum = x + y;
+      document.write(sum);
+      //Array
+      var colors = ["Red", "Yellow", "Green", "Orange"];
+      var cities = ["London", "Paris", "New York"];
+      for (i = 0; i < colors.length; i++) {
+        document.write(colors[i] + " ");
+      }
+      i = 0;
+      while (i < cities.length) {
+        document.write(cities[i++] + "  ");
+      }
+      //Function
+      const greeting = () => document.write("\nHello EveryOne!");
+      greeting();
+    </script>
+  </body>
+</html>
